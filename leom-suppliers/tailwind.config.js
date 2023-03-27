@@ -8,7 +8,17 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#510040",
+        button: "#1A005F",
+      },
+      fontFamily: {
+        main: ['Montserrat'],
+        headline: ['Poppins'],
+        bold: ['Poppins-bold'],
+      }
+    },
   },
   plugins: [],
 }
