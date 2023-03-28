@@ -4,6 +4,7 @@ import Image from 'next/image';
 import styles from '@/styles/Home.module.css';
 import Headline from '@/components/Headline';
 import Footer from '@/components/Footer';
+import PhotoSection from '@/components/PhotoSection';
 
 export default function Home() {
   return (
@@ -21,9 +22,7 @@ export default function Home() {
           <NavBar />
         </div>
         <Headline/>
-
-       
-
+        <PhotoSection />
         
       </main>
       <Footer/>
