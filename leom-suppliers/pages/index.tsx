@@ -5,6 +5,7 @@ import styles from '@/styles/Home.module.css';
 import Headline from '@/components/Headline';
 import Footer from '@/components/Footer';
 import ProductPanel from '@/components/ProductPanel';
+import About from '@/components/About';
 
 export default function Home() {
   return (
@@ -24,7 +25,7 @@ export default function Home() {
         <Headline/>
 
         <ProductPanel/>
-
+        <About/>
         
       </main>
       <Footer/>

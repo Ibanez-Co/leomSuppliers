@@ -25,7 +25,7 @@ const ProductPanel =() => {
           </div>
         </div>
         <div className=' bg-gray-200 flex items-center justify-center py-16'>
-          <ul className='grid grid-cols-4 grid-rows-2'>
+          <ul className='grid grid-cols-4'>
             {products[parseInt(picture)].values.map((productImage) => (
               <li key={productImage.id} className='grid p-2 place-items-center'>
                 <img src={productImage.image} className='col-span-1 shadow-xl rounded-md mb-6'/>
