@@ -4,6 +4,7 @@ import Image from 'next/image';
 import styles from '@/styles/Home.module.css';
 import Headline from '@/components/Headline';
 import Footer from '@/components/Footer';
+import ProductPanel from '@/components/ProductPanel';
 
 export default function Home() {
   return (
@@ -22,7 +23,7 @@ export default function Home() {
         </div>
         <Headline/>
 
-       
+        <ProductPanel/>
 
         
       </main>
