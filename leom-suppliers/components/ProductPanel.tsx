@@ -29,7 +29,7 @@ const ProductPanel =() => {
             {products[parseInt(picture)].values.map((productImage) => (
               <li key={productImage.id} className='grid p-2 place-items-center'>
                 <img src={productImage.image} className='col-span-1 shadow-xl rounded-md mb-6'/>
-                <button className='grid font-bold py-2 px-2 rounded button-yellow'>Contact Us</button>
+                <a href='/#ContactMe' className='grid font-bold py-2 px-2 rounded button-yellow'><button >Contact Us</button></a>
               </li>
             ))}
           </ul>
