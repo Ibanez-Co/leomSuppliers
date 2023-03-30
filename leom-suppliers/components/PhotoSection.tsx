@@ -9,7 +9,7 @@ import picture_5 from '../public/picture-5.png'
 
 const PhotoSection = () => {
   return (
-    <div className='flex items-center justify-center px-8'>
+    <div className='flex items-center justify-center py-10 px-8'>
     <div className='grid grid-cols-1 md:grid-cols-3 md:grid-rows-8 gap-4'>
                         <Image className=' w-full' src={picture_1} alt="" />
                         <Image className=' w-full md:row-span-2' src={picture_2} alt="" />
