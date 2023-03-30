@@ -7,6 +7,7 @@ import ProductPanel from '@/components/ProductPanel';
 import About from '@/components/About';
 import OurClients from '@/components/OurClients';
 import OurWarehouse from '@/components/OurWarehouse';
+import ContactMe from '@/components/ContactMe';
 
 export default function Home() {
   return (
@@ -29,6 +30,11 @@ export default function Home() {
         <About/>
         <OurClients/>
         <OurWarehouse/>
+
+        <div id='ContactMe'>
+        <ContactMe />
+        </div>
+
       </main>
       <Footer/>
     </>

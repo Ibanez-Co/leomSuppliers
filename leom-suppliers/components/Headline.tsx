@@ -5,7 +5,7 @@ import { headlines } from '../constants/headlines';
 function Headline() {
   return(
     <>
-    <div className='flex bg-primary text-white p-12'>
+    <div className='flex flex-col md:flex-row bg-primary text-white p-12'>
       <ul className='flex items-center justify-center'>
         {headlines.map((headline,index) =>(
            <li key={headline.id} className='font-headline'>
