@@ -23,6 +23,19 @@ a {
   background-color: #FCFCFC;
 }
 
+.button-yellow {
+  color: #C01114;
+  border: 2px solid #F26F02;
+  width: 50%;
+}
+.blue-button {
+  color: white;
+  border: 2px solid #1A005F;
+  background-color: #1A005F;
+  width: 15%;
+}
+
+
 @font-face {
   font-family: 'Montserrat';
   src: url('../public/static/Montserrat-Black.ttf');
