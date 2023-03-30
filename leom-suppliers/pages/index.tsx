@@ -4,6 +4,7 @@ import Image from 'next/image';
 import styles from '@/styles/Home.module.css';
 import Headline from '@/components/Headline';
 import Footer from '@/components/Footer';
+import PhotoSection from '@/components/PhotoSection';
 import ProductPanel from '@/components/ProductPanel';
 import About from '@/components/About';
 import OurClients from '@/components/OurClients';
@@ -26,16 +27,16 @@ export default function Home() {
           <NavBar />
         </div>
         <Headline/>
-
+        <PhotoSection />
         <ProductPanel/>
         <About/>
         <OurClients/>
         <OurWarehouse/>
+
         <div id='ContactMe'>
         <ContactMe />
         </div>
-        
-        
+
       </main>
       <Footer/>
     </>
