@@ -24,19 +24,19 @@ export const products = [
     name: 'POLO SHIRTS',
     values:[ {
       id: 0,
-      image: '../public/t-shirts1.png',
+      image: '/t-shirts1.png',
     },
     {
       id: 1,
-      image: '../public/t-shirts2.png',
+      image: '/t-shirts2.png',
     }, 
     {
       id: 2,
-      image: '../public/t-shirts3.png',
+      image: '/t-shirts3.png',
     },
     {
       id: 3,
-      image: '../public/t-shirts4.png',
+      image: '/t-shirts4.png',
     },] 
   },
   {
@@ -44,19 +44,19 @@ export const products = [
     name: 'HATS',
     values:[ {
       id: 0,
-      image: '../public/t-shirts1.png',
+      image: '/t-shirts1.png',
     },
     {
       id: 1,
-      image: '../public/t-shirts2.png',
+      image: '/t-shirts2.png',
     }, 
     {
       id: 2,
-      image: '../public/t-shirts3.png',
+      image: '/t-shirts3.png',
     },
     {
       id: 3,
-      image: '../public/t-shirts4.png',
+      image: '/t-shirts4.png',
     },] 
   },
   {
@@ -64,19 +64,19 @@ export const products = [
     name: 'HOODIES',
     values:[ {
       id: 0,
-      image: '../public/t-shirts1.png',
+      image: '/t-shirts1.png',
     },
     {
       id: 1,
-      image: '../public/t-shirts2.png',
+      image: '/t-shirts2.png',
     }, 
     {
       id: 2,
-      image: '../public/t-shirts3.png',
+      image: '/t-shirts3.png',
     },
     {
       id: 3,
-      image: '../public/t-shirts4.png',
+      image: '/t-shirts4.png',
     },] 
   },
   {
@@ -84,19 +84,19 @@ export const products = [
     name: 'BEACH WEAR',
     values:[ {
       id: 0,
-      image: '../public/t-shirts1.png',
+      image: '/t-shirts1.png',
     },
     {
       id: 1,
-      image: '../public/t-shirts2.png',
+      image: '/t-shirts2.png',
     }, 
     {
       id: 2,
-      image: '../public/t-shirts3.png',
+      image: '/t-shirts3.png',
     },
     {
       id: 3,
-      image: '../public/t-shirts4.png',
+      image: '/t-shirts4.png',
     },] 
   },
   {
@@ -104,19 +104,19 @@ export const products = [
     name: 'BEACH TOWELS',
     values:[ {
       id: 0,
-      image: '../public/t-shirts1.png',
+      image: '/t-shirts2.png',
     },
     {
       id: 1,
-      image: '../public/t-shirts2.png',
+      image: '/t-shirts2.png',
     }, 
     {
       id: 2,
-      image: '../public/t-shirts3.png',
+      image: '/t-shirts2.png',
     },
     {
       id: 3,
-      image: '../public/t-shirts4.png',
+      image: '/t-shirts2.png',
     },] 
   },
 ]
