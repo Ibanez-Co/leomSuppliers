@@ -43,7 +43,7 @@ const ContactMe =()=>{
           <div>
             <h1 className='font-bold'>FIND ME WITH</h1>
             <div className='flex text-4xl gap-4'>
-              <a href='https://www.twitter.com'><AiFillTwitterCircle/></a>
+              {/* <a href='https://www.twitter.com'><AiFillTwitterCircle/></a> */}
               <a href='https://www.linkedin.com'><AiFillLinkedin/></a>
               <a href='https://www.instagram.com'><AiFillInstagram/></a>
             </div>

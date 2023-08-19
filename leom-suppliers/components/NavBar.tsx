@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import React, { useState } from 'react';
-import leom_logo from '../public/LeomLogo.png';
+import leom_logo from '../public/LeomLogoNEW.png';
 import { RxHamburgerMenu } from 'react-icons/rx';
 import { AiOutlineClose } from 'react-icons/ai';
 import { navLinks } from '../constants/navLinks';
@@ -12,12 +12,12 @@ function NavBar(props: navBarProps) {
     setToggle((prev) => !prev);
   };
   return (
-    <nav className='flex w-full justify-between items-center p-6'>
+    <nav className='bg-primary flex w-full justify-between items-center p-6'>
       <Link href='/' className='w-auto h-auto'>
-        <Image src={leom_logo} className='flex h-24 w-auto' alt='LEOM Sourcing Logo' />
+        <Image src={leom_logo} className='bg-primary flex h-24 w-auto' alt='LEOM Sourcing Logo' />
       </Link>
 
-      <ul className='gap-4 hidden lg:flex'>
+      <ul className='gap-4 hidden lg:flex text-white'>
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}

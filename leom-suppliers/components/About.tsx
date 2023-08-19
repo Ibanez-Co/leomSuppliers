@@ -8,11 +8,10 @@ const About = () => {
       <div className='grid col-span-1 bg-white shadow-lg m-6'>
         <h1 className='grid  font-bold text-4xl pt-12 pl-16 pb-6'>About Us</h1>
         <p className='grid font-headline text-lg px-16 py-4'>
-        LEOM is a garment supplier. We work with companies to custom-design the garment products
-        they want to sell in their stores. We can handle shipments of garments in the tens of 
+        LEOM is an apparel supplier. We work with you to custom-design the apparel products
+        you want to sell. We can handle shipments of apparel in the tens of 
         thousands of pieces. Please send us your contact information if you wish to do business 
-        with us. We are based in New Albany, Ohio with a large warehouse of products that we ship
-        in from Bangladesh.
+        with us. We are based in New Albany, Ohio with a large warehouse of products.
         </p>
         <button className='blue-button rounded font-bold items-center justify-center ml-16 mb-16'> Read More</button>
       </div>

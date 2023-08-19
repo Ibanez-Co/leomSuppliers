@@ -24,12 +24,12 @@ export default function Home() {
         <div className='flex w-full'>
           <NavBar />
         </div>
-        <Headline/>
+        {/* <Headline/>
         <PhotoSection />
         <ProductPanel/>
         <About/>
         <OurClients/>
-        <OurWarehouse/>
+        <OurWarehouse/> */}
 
         <div id='ContactMe'>
         <ContactMe />

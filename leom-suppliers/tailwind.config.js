@@ -10,8 +10,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#510040",
-        button: "#1A005F",
+        primary: "#1A005F",
+        button: "#510040",
       },
       fontFamily: {
         main: ['Montserrat'],
