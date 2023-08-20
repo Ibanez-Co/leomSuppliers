@@ -8,6 +8,7 @@ import About from '@/components/About';
 import OurClients from '@/components/OurClients';
 import OurWarehouse from '@/components/OurWarehouse';
 import ContactMe from '@/components/ContactMe';
+import OrderForm from '@/components/OrderForm';
 
 export default function Home() {
   return (
@@ -31,8 +32,11 @@ export default function Home() {
         <OurClients/>
         <OurWarehouse/> */}
 
-        <div id='ContactMe'>
+        {/* <div id='ContactMe'>
         <ContactMe />
+        </div> */}
+        <div>
+          <OrderForm />
         </div>
 
       </main>
